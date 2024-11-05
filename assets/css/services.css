@@ -1,0 +1,150 @@
+body{
+    background-color: black;
+}
+.container__img {
+    position: relative;
+    width: 100%;
+}
+
+.img__header {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.container__item__img {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.img__header__music{
+    position: relative;
+    width: 100%;
+}
+
+.button__bundle{
+    background: transparent;
+    margin-left: 6px;
+    color: #fff;
+    border-color: #fff;
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    border-radius: 12px;
+    padding: 3px 11px;
+}
+.container__apple-music{
+    position: relative;
+}
+.container__apple__content-music{
+    position: absolute;
+    bottom: 27%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.content_item_apple{
+    font-size: 20px;
+    font-weight: 800;
+}
+.container__apple__item{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.button__apple{
+    font-size: 17px;
+    line-height: 1.1764805882;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    min-width: 26px;
+    padding: 12px 22px;
+    border-radius: 980px;
+    font-weight: 500;
+}
+
+.container__apple__content{
+    display: flex;
+    align-items: center;
+}
+
+.item__capple__content{
+    flex-basis: 50%;
+}
+#slide__apple{
+    height: 10px;
+}
+
+.img__item{
+    width: 30%;
+    object-fit: cover;
+    height: 15%;
+}
+.outer-container {
+    display: flex;
+    max-width: 1300px;
+    overflow-x: auto;
+    gap: 20px; 
+    padding: 10px;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch; 
+}
+
+.outer-container::-webkit-scrollbar {
+    height: 8px; 
+}
+
+.outer-container::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 4px;
+}
+
+.outer-container::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 4px;
+}
+
+.outer-container::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.img__container {
+    position: relative;
+    flex: 0 0 auto; 
+    width: 200px;
+}
+
+.img__item {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px; 
+}
+
+.img__text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin: 0;
+}
+
+.item__fit__content{
+    flex-basis: 40%;
+    padding: 15px
+}

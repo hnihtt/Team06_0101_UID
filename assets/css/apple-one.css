@@ -1,0 +1,121 @@
+body {
+    background-color: white;
+}
+
+.header__container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo_header {
+    width: 163px;
+    height: 53px;
+}
+
+.item__content__header {
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .00022em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.item__header {
+    color: #1d1d1f;
+    font-size: 96px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -.00144em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.section-icloud {
+    background-color: #458ef5;
+}
+
+
+.header__container__icloud {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item__content__header__icloud {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .00022em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.section-apple-tv {
+    background: black;
+}
+
+.section-apple-music {
+    background-image: url("/assets/img/hero_music.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-apple-game {
+    background-image: url("/assets/img/apple-one_IMG/hero_startframe__b2bqnq4fhab6_medium.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-fit {
+
+    background: linear-gradient(135deg, #ff3a3a, #ff9500);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-news {
+    background: linear-gradient(135deg, #b91d1d, #4a4a4a);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-bill {
+    background: #f5f5f7;
+}
+
+.items{
+    font-size: 22px;
+    font-weight: 800;
+
+}
+
+.card-container{
+    padding: 20px 20px 35px 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 325px;
+    margin-bottom: 150px;
+}
+
+.container__card__bill{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-footer{
+    background-color: white;
+}
+
+.header__container__accordion{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+
+
