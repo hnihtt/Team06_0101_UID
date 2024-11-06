@@ -10,8 +10,8 @@ video {
     height: 100%;
     object-fit: cover;
     position: absolute;
-    top: -0;
-    left: -50%;
+    top: 0;
+    left: 0;
 }
 
 video.video-full {
@@ -24,7 +24,7 @@ video.video-full {
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: 70%;
+    bottom: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
