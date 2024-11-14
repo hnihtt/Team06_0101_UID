@@ -14,6 +14,29 @@ body {
     background-color: #fff;
 }
 
+.navbar {
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.submenu {
+    text-align: center;
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255);
+    z-index: 1;
+    left: 0;
+    width: 100%;
+}
+  
+.nav-item:hover .submenu {
+    display: block;
+}
+  
+.submenu .nav-link:hover {
+    background-color: #f8f9fa;
+}
+
 .container {
     width: 1520px;
     height: 48px;
@@ -25,12 +48,10 @@ body {
 }
 
 .container li {
-    height: 47px;
     color: #fff;
 }
 
 .container li a {
-    background-color: #fff;
     color: #333;
     padding: 8px 0px 0px 0px;
     border: none;
@@ -118,7 +139,7 @@ body {
     top: 101px;
     left: 80px;
     height: 475px;
-    margin: 48px 80px 88px 80px;
+    margin: 7rem 80px 88px 80px;
     gap: 8.2px;
     border-radius: 16px 0px 0px 0px;
     border-top: none;
@@ -407,7 +428,7 @@ body {
     top: 101px;
     left: 80px;
     height: 475px;
-    margin: 48px 80px 0px 80px;
+    margin: 7rem 80px 0px 80px;
     gap: 8.2px;
     border-radius: 16px 0px 0px 0px;
     justify-content: space-between;
