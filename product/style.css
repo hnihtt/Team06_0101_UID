@@ -47,12 +47,8 @@ body {
     opacity: 1;
 }
 
-.container li {
-    color: #fff;
-}
-
 .container li a {
-    color: #333;
+    color: #000;
     padding: 8px 0px 0px 0px;
     border: none;
     font-size: 16px;
