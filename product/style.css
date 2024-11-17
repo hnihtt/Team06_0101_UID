@@ -3,6 +3,7 @@ body {
     height: 100%;
     color: #fff;
     margin: 0;
+    overflow-x: hidden;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -26,14 +27,8 @@ body {
     opacity: 1;
 }
 
-.container li {
-    height: 47px;
-    color: #fff;
-}
-
 .container li a {
-    background-color: #fff;
-    color: #333;
+    color: #000;
     padding: 8px 0px 0px 0px;
     border: none;
     font-size: 16px;
@@ -118,7 +113,7 @@ body {
     width: 92%;
     max-width: 92%;
     height: 475px;
-    margin: 48px 80px 88px 80px;
+    margin: 7rem 80px 88px 80px;
     border-radius: 16px 0px 0px 0px;
     border-top: none;
     box-shadow: 0px 20px 15px 0px #00000054;
@@ -144,17 +139,17 @@ body {
 .product-container {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 4rem;
     margin-top: 1.5rem;
     margin-left: 55px;
     flex-wrap: wrap;
-    width: 1639px;
+    width: 100%;
     height: 196px;
 }
 
 .product-item {
     text-align: center;
-    width: 200px;
+    width: 100px;
     height: 196px;
 }
 
@@ -248,7 +243,7 @@ body {
 
 .product-item-gird {
     padding: 1rem;
-    width: 488px;
+    width: 400px;
     border-radius: 0.75rem;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -256,11 +251,13 @@ body {
 .product-item-black {
     background-color: #000;
     color: #fff;
+    width: 400px;
 }
 
 .product-item-white {
     background-color: #fff;
     color: #000;
+    width: 400px;
 }
 
 .product-header {
@@ -292,7 +289,7 @@ body {
 }
 
 .product-image-grid {
-    width: 475px;
+    width: 100%;
     height: 459px;
     border-radius: 26px;
 }
@@ -326,7 +323,7 @@ body {
 }
 
 .section2-image-grid {
-    width: 475px;
+    width: 100%;
     height: 459px;
     border-radius: 26px;
 }
@@ -398,7 +395,7 @@ body {
     width: 92%;
     max-width: 92%;
     height: 475px;
-    margin: 48px 80px 0px 80px;
+    margin: 7rem 80px 0px 80px;
     gap: 8.2px;
     border-radius: 16px 0px 0px 0px;
     justify-content: space-between;
@@ -484,7 +481,7 @@ body {
 
 .ipad-item-gird {
     padding: 1rem;
-    width: 488px;
+    width: 400px;
     border-radius: 0.75rem;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -549,7 +546,7 @@ body {
 }
 
 .store-title-ipad {
-    font-size: 128px;
+    font-size: 120px;
     font-weight: 700;
     line-height: 48px;
     color: #333;
@@ -935,4 +932,43 @@ p {
     line-height: 24px;
     color: #000;
     margin-top: 0;
+}
+
+.navbar {
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.submenu {
+    text-align: center;
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255);
+    z-index: 1;
+    left: 0;
+    width: 100%;
+}
+  
+.nav-item:hover .submenu {
+    display: block;
+}
+  
+.submenu .nav-link:hover {
+    background-color: #f8f9fa;
+}
+
+
+.ipad-fix {
+    background-image: url(./images/Frame\ 4.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.ipad-fix-img {
+    position: absolute;
+    width: 650px;
+    top: 30%;
+    left: 50%;
 }
